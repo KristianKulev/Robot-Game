@@ -1,0 +1,71 @@
+html {
+    background: #1e1f21;
+}
+
+#container{
+    position: relative;
+    overflow: hidden;
+}
+
+canvas {
+    margin: 0 auto;
+    display: block;
+    background: #252729;
+}
+
+.alignAbsoluteCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#outerDiv{
+    width: 840px;
+    height: 480px;
+    margin: -240px -420px;
+    background-color: #333638;
+    -webkit-transition: top .7s linear 0s, margin 1.2s linear 1s;
+    -moz-transition: margin-bottom .7s linear, margin 1.2s linear;
+    -o-transition: margin-bottom .7s linear, margin 1.2s linear;
+    transition: top 0.2s linear 0s, background-color 0.8s ease-in 0s, margin 0.25s cubic-bezier(0.87,-0.08, 0.58, 1) 0.25s;
+}
+
+#innerDiv{
+    width: 820px;
+    height: 460px;
+    margin: -230px -410px;
+    background-color: #3E4144;
+}
+
+#startButton{
+    background-color: #8BC558;
+    margin: -30px -165px;
+    width: 330px;
+    height: 60px;
+    font-family: 'voltaeftu-regular';
+    font-size: 1.2em;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.borderRad5{
+    border-radius: 5px;
+}
+
+.borderRad15{
+    border-radius: 15px;
+}
+
+.displayNone{
+    display: none;
+}
+
+.animateToOutside{
+
+    /*class for the start message to inherit, when game has started*/
+
+    top: 60% !important;
+    background-color: #8BC558 !important;
+    margin: -1300px -420px !important;
+}
