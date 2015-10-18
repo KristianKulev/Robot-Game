@@ -3,7 +3,7 @@ function Explosion(missile){
     this.imgSrc ="assets/images/explosion.png";
     this.numberOfFrames = 34;
     this.width = 4350;
-    this.height = 150;
+    this.height = 126;
     this.position = {
         x: missile.position.x - 50,
         y: missile.position.y - 55

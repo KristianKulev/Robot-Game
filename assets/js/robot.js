@@ -3,7 +3,7 @@ function Robot(){
     this.imgSrc = "assets/images/robot.png";
     this.numberOfFrames = 8;
     this.width = 424;
-    this.height = 100;
+    this.height = 62;
     this.position = {
         x: 200,
         y: 200

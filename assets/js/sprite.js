@@ -3,7 +3,7 @@ function Sprite(parent) {
     //get all needed properties from the parent
 
     this.context = parent.context;
-    this.width = parent.width;
+    this.width = parent.width
     this.height = parent.height;
     this.image = new Image();
     this.image.src = parent.imgSrc;

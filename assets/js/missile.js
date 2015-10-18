@@ -6,7 +6,7 @@ function Missile(position){
     this.imgSrc ="assets/images/missile.png";
     this.numberOfFrames = 4;
     this.width = 104;
-    this.height = 50;
+    this.height = 42;
     this.position = {
         x: position.x,
         y: position.y

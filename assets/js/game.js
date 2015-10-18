@@ -47,6 +47,7 @@ function Game(){
     };
 
     this.gameLoop = function(){
+
         field.clear();
         robot.render();
 
@@ -81,6 +82,7 @@ function Game(){
 }
 
 (function loadGame(){
+
 
     var startButton =  document.getElementById('startButton');
     startButton.addEventListener('click', function(){

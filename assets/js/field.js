@@ -11,6 +11,7 @@ Field.prototype.clear = function(){
 }
 
 Field.prototype.getCursorPosition = function(event) {
+
     var rect = this.canvas.getBoundingClientRect();
     var x = event.clientX - rect.left;
     var y = event.clientY - rect.top;
@@ -19,6 +20,7 @@ Field.prototype.getCursorPosition = function(event) {
 
     return {
         x: x,
-        y: y};
+        y: y
+    };
 
 }
